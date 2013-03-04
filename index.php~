@@ -38,7 +38,7 @@ define('LIBS_DIR', APP_ROOT . 'application/libs' . DIRECTORY_SEPARATOR);
 //设置是否开启调试模式.开启后,程序运行出现错误时,显示错误信息,便于程序调试.
 define('WEB_DEBUG', false);	
 
-// 设置URL的Rewrite功能是否开启,如开启后,需WEB服务器软件如:apache或nginx等,要开启Rewrite功能.
+//设置URL的Rewrite功能是否开启,如开启后,需WEB服务器软件如:apache或nginx等,要开启Rewrite功能.
 define('WEB_REWRITE', true);
 
 //设置系统默认的controller名称,默认为:index
